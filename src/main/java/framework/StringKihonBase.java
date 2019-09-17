@@ -10,7 +10,7 @@ public abstract class StringKihonBase {
     protected abstract String convertToLowerCase(String data);
     protected abstract String Combine_Parts_Of_A_Name(String firstName, String middleName, String lastName);
     protected abstract String Combine_Two_Strings(String a, String b);
-    protected abstract void Determine_The_Length_Of_A_String(String data);
+    protected abstract int Determine_The_Length_Of_A_String(String data);
     protected abstract String Remove_All_Leading_Whitespace(String data);
     protected abstract String Remove_All_Trailing_Whitespace(String data);
     protected abstract String[] Split_A_String_Into_An_Array(String input, char divider);

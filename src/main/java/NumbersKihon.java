@@ -3,17 +3,22 @@ import framework.NumbersKihonBase;
 public class NumbersKihon extends NumbersKihonBase {
     @Override
     protected int returnTheMaximumValueOfInt() {
-        throw new UnsupportedOperationException();
+        int a;
+        int b;
+        return Integer.max(a,b);
+
     }
 
     @Override
     protected int returnTheMinimumValueOfInt() {
-        throw new UnsupportedOperationException();
+
+
     }
 
     @Override
     protected int returnTheRemainderOfADividedByB(int a, int b) {
-        throw new UnsupportedOperationException();
+
+        return a%b;
     }
 
     @Override
@@ -28,7 +33,7 @@ public class NumbersKihon extends NumbersKihonBase {
 
     @Override
     protected boolean returnTrueIfAIsNotANumber(double a) {
-        throw new UnsupportedOperationException();
+        return 
     }
 
     @Override

@@ -1,5 +1,4 @@
 import framework.ConsoleKihonBase;
-import java.util.Scanner;
 
 public class ConsoleKihon extends ConsoleKihonBase {
     @Override

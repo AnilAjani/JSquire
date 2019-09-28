@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 
 public abstract class FileOperationsKihonBase {
     public abstract String getContentsOfThisFile(Path pathOfFile) throws IOException;
-    public abstract void writeContentsToThisFile(Path pathOfFile, String contents) throws IOException;
+    public abstract Path writeContentsToThisFile(Path pathOfFile, String contents) throws IOException;
 
     @Test
     public void getContentsOfThisFileTest(@TempDir Path tempDir) throws IOException {
